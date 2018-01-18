@@ -1,25 +1,128 @@
-   <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title> Forms </title>
-            <meta charset="UTF-8">
-            
-<link rel="stylesheet" type="text/css" href="css/formsstyle.css">
-            
-<style>
-            
-            </style>
+<!DOCTYPE html>
+<html>
 
-        </head>
+<head>
+<meta charset="UTF-8">
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+<title> SJ Storage Solutions </title>
+</head>
+
+<body>
+<div id ="wrapper">
+<div id=search>
+<header>
+<form><p> Search: <input type="search" name="search"> </p></form>
+ <h1> S.J. Wardrobe Solutions </h1>
+</header>
+  </div>
+  
+  
+ <div id=nav>
+  <ul>
+  <li class="current"><a href="index.html"><p>Home</p></a></li>
+  <li><a href="about.html"><p>About</p></a></li>
+  <li><a href="wardrobes.html"><p>Wardrobes</p></a></li>
+  <li><a href="materials.html"><p>Materials</p></a></li>
+  <li><a href="interiors.html"><p>Interiors</p></a></li>
+  <li><a href="contact.html"><p>Contact Us</p></a></li>
+  <li><a href="faqs.html"><p>FAQs</p></a></li>
+  </ul>
+  </div>
 
 
-    <h1>Heading Heading Heading</h1>
-         
-        <body>
-         
-    <p>This is a test. This is a test. This is a test. This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.This is a test. This is a test. This is a test.</p>
-            
-    
-            
-     
-        </body></html>
+
+
+
+
+
+<!-- Slide Show -->
+<br> <br>
+<div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  <center> <img src="img/wardrobe6.jpg" alt="sliding wardrobe" style="width:900px; height:500px"> </center>
+  <center> <div class="text"><p><strong>Glass Wardrobe</strong></p></div> </center>
+</div> <!--McNiffe Kitchens-->
+
+<div class="mySlides fade">
+  <center> <img src="img/wardrobe4.jpg" alt="sliding wardrobe" style="width:900px; height:500px"> </center>
+  <center> <div class="text"><p><strong>Acrylic Wardrobe</strong></p></div> </center>
+</div> <!--Sliderobes Cork-->
+
+<div class="mySlides fade">
+  <center> <img src="img/wardrobe1.jpg" alt="sliding wardrobe" style="width:900px; height:500px"> </center>
+  <center> <div class="text"><p><strong>Egger Board Wardrobe</strong></p></div> </center>
+</div><!--Sliderobes Cork-->
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+<main>
+<p class="words">
+Using the very latest in smooth running sliding track technology and stylish materials from          
+timbered coloured panels, mirrors and the ultra modern lacobel coloured glass our Wardrobes at S.J. Storage Solutions
+are organised stylish and spacious! <br><br>
+We offer exceptional value for money, our wardobes are made to measure and are custom designed to suit your needs. 
+We  also offer a wide choice of colours, styles, materials and provide a wide choice 
+of accessories, drawers, baskets,trouser and shoe racks too. <br><br>
+
+
+Our stunning collection of wardrobes are designed to both compliment and enhance your home. <br><br>
+
+Choose from our collection of natural wood effect doors or lacobal glass or choose mirrored doors which are
+designed to brighten and create extra space and light in your room. <br><br>
+
+Whichever door you choose you will be sure to create a room that invites you to relax.
+</p>
+
+</main>
+
+
+
+<footer>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  
+<p class="end"> S.J. Storage Solutions, 087 3936264, Ballyclough, Limerick </p>
+<a class="end" href= "mailto:stephenoseoige@gmail.com">stephenoseoige@gmail.com</a>
+</footer>
+</div>
+</body>
+</html>

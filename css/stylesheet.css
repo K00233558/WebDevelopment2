@@ -1,0 +1,482 @@
+
+
+
+/*general styles*/
+
+div#wrapper {
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+ }
+
+ 
+ @font-face {
+    font-family: myfont;
+    src: url('Luna.ttf');
+	/*src: url('sunshine.ttf');
+	src: url('angelina.ttf');
+	src: url('paperdaisy-demo.ttf');*/
+}
+
+h1, h2, h3 {
+    font-family: myfont, cursive;
+    /*font-family: 'sunshine', cursive;
+	font-family: 'angelina', sans-serif;
+    font-family: 'luna', sans-serif;
+    font-family: 'paperdaisy-demo', cursive;*/
+  
+}
+
+ @font-face {
+    font-family: eilisfont;
+    /*src: url('Luna.ttf');
+	/*src: url('sunshine.ttf');
+	src: url('angelina.ttf');*/
+	src: url('atwriter.ttf');
+}
+
+
+p, a {
+    font-family: eilisfont, cursive;
+    /*font-family: 'sunshine', cursive;
+	font-family: 'angelina', sans-serif;
+    font-family: 'luna', sans-serif;
+    font-family: 'paperdaisy-demo', cursive;*/
+}
+
+
+  
+ div#search {
+	 margin-top:2cm;
+ }
+
+div#search header {
+      height:100px;
+}
+
+div#search form{
+	float: right;
+	
+}
+
+
+
+
+span {
+	color:red;
+}
+
+/*navigation bar styles */
+
+#nav {
+  float: auto;
+  background-color:black;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav li {
+  display: inline-block;
+  margin-left: 22px;
+  padding-top: 20px;
+  position: relative;
+  margin-right:40px;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#nav a:hover {
+  color: yellow;
+}
+
+#nav a:before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+#nav a:hover:before {
+  width: 100%;
+}
+
+
+
+
+
+/*slideshow*/
+div#text {
+	text-align:center;
+}
+
+
+
+
+
+/*footer*/
+footer {
+	background-color: black;
+	text-align: center;
+	padding: 60px 20px;
+	text-decoration:none;
+	clear:both;
+}
+
+a {
+	color: white;
+	padding: 60px 30px;
+}
+
+.end {
+	color:white
+}
+
+
+
+/*home*/
+.words {
+	margin:35px;
+}
+	
+
+
+/*about*/
+
+div#pictures1 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#pictures2 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#pictures3 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#pictures4{
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#pictures5 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#pictures6 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+
+
+
+/*Wardrobes*/
+
+div#wardrobes1 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#wardrobes2 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#wardrobes3 {
+  border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+
+/*Table*/
+
+div#pricing {
+	margin-left:35px;
+	margin-right:auto:
+	
+}
+	
+	
+	
+td {margin: 10;
+	text-align: center;
+	border: 1px black solid;}
+	
+ H2 {font-style:calibri;
+     font-color:#eaaee9;}
+	
+
+.toprow	{background-color: yellow}		
+.empty {background-color: white}
+ 
+
+td:hover {color:white;
+		 background-color: #33ccff}
+		 
+td:hover {color:white;
+		 background-color: black}
+
+td {padding: 20px;
+  margin-left:40px;
+  margin-right:40px;
+  border:solid 2px black;
+  
+}
+
+
+table.best {font-family: eilisfont;
+			border: solid 2px black;
+			border-collapse: collapse;
+			float: left;
+			}
+			
+
+			
+			
+
+/*Materials*/
+
+
+ul.materials1 { 
+	list-style-type: none;
+    margin-top: -20px;
+    padding: 0px;
+    overflow: hidden;
+	text-decoration: none;
+	
+}
+
+li.mat{
+		    text-align:center;
+			text-decoration:none;
+			float:left;
+			margin: 20px;
+			padding: 0px 10px;
+			font-family: helvetica;
+			padding-top:0px;
+			
+}
+
+p.mat2 {
+  text-align: center;
+  font-size: 9px;
+}
+
+	
+	
+/*Interiors Page*/
+
+
+div#interiors1 {
+    border:solid 2px black;
+	margin:35px;
+    padding:20px;
+    width:800px;
+    height:300px;
+    text-align:left;
+	
+}
+
+
+div#interiors2 {
+    border:solid 2px black;
+	margin:35px;
+    padding:20px;
+    width:800px;
+    height:300px;
+    text-align:left;
+}
+
+div#interiors3 {
+    border:solid 2px black;
+	margin:35px;
+    padding:20px;
+    width:800px;
+    height:300px;
+    text-align:left;
+}
+
+div#interiors4 {
+    border:solid 2px black;
+	margin:35px;
+    padding:20px;
+    width:800px;
+    height:300px;
+    text-align:left;
+}
+	
+div#interiors5 {
+      border:solid 2px black;
+	margin:35px;
+    padding:20px;
+    width:800px;
+    height:300px;
+    text-align:left;
+}
+
+div#interiors6 {
+     border:solid 2px black;
+	margin:35px;
+    padding:20px;
+    width:800px;
+    height:300px;
+    text-align:left;
+}
+
+
+/*contact page*/
+
+div#contact1 {
+	border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#contact2 {
+	border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+div#contact3 {
+	border:solid 2px black;
+  margin:35px;
+  padding:20px;
+  width:200px;
+  height: 200px;
+  float:left;
+  text-align:center;
+}
+
+
+ 
+
+	
+
+/*FAQs*/
+
+
+#accordian section p{
+  overflow: hidden;
+  max-height: 0em;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-family: eilisfont;
+  border-bottom: 2px solid black;
+}
+
+#accordian section a {
+text-decoration: none;
+display: block;
+/*text-align: left;*/
+padding: 5px;
+color: black;
+
+}
+
+#accordian section a:hover{
+  color: red;
+}
+
+
+
+#accordian section:target p{
+  max-height: 20em;
+  padding: 10px;
+}
+
+
+	
+	
+div#contactpictures {
+	float:right;
+}
+
+
+
+
+
+
+li.current {
+	background-color:red;
+}
+
+
+
+
+	
+	
+	
